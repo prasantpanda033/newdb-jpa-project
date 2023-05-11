@@ -22,8 +22,11 @@ public class AccTransactionController {
 	@GetMapping(value = "/accTransaction")
 	public AccTransaction accTransactionrData(@RequestParam("accountId") int actId, @RequestParam("txnId") int txnId) {
 		AccTransaction accTransaction = accTransactionService.getAccTransaction(actId, txnId);
+		//new comment 9s
 		return accTransaction;
 		//new comment 2
+		//new comment 7
+		
 	}
 
 	@PostMapping(value = "/saveAccTransaction", consumes = MediaType.APPLICATION_JSON_VALUE)
