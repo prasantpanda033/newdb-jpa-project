@@ -21,6 +21,8 @@ public class DepartmentController {
 	public Department departmentData(@RequestParam int id) {
 		Department department = departmentService.getDepartment(id);
 		return department;
+		
+		
 	}
 
 	@RequestMapping(value = "/saveDepartment", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
