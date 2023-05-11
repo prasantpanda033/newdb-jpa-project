@@ -17,6 +17,7 @@ public class AccTransactionController {
 
 	@Autowired
 	AccTransactionService accTransactionService;
+	
 
 	@GetMapping(value = "/accTransaction")
 	public AccTransaction accTransactionrData(@RequestParam("accountId") int actId, @RequestParam("txnId") int txnId) {
