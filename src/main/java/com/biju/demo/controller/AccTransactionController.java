@@ -25,8 +25,7 @@ public class AccTransactionController {
 		//new comment 9s
 		return accTransaction;
 		//new comment 2
-		//new comment 7
-		
+
 	}
 
 	@PostMapping(value = "/saveAccTransaction", consumes = MediaType.APPLICATION_JSON_VALUE)

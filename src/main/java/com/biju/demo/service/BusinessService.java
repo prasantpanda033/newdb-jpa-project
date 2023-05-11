@@ -24,6 +24,7 @@ public class BusinessService {
 
 	public String saveBusiness(Business business) {
 		try {
+			//new cahnges
 			businessRepo.save(business);
 			return "Successful";
 		} catch (Exception e) {
